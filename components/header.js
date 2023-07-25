@@ -12,9 +12,11 @@ const header = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    speed:2000,
     dots: false,
     arrows: false,
- 
+ autoplay:true,
+ autoplaySpeed:2000
   };
   const settings = {
     infinite: false,
