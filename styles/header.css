@@ -1,0 +1,122 @@
+body {
+  font-family: "Open Sans", "Noto Nastaliq Urdu Draft", "Roboto",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background-color: #f1f3f6;
+}
+.header-marquee {
+  background-color: #1498ff;
+  color: white;
+  padding: 8px 0;
+  font-size: 15px;
+}
+header {
+  background-color: #48afff;
+}
+.headerNavigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 10px 15px;
+}
+.headerLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo a {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+.menuIcon {
+  color: white;
+  font-size: 28px;
+}
+.headerSearchBar {
+  border-radius: 6px;
+  /* width: 80%; */
+  height: 15px;
+  padding: 20px 10px;
+  outline: none;
+  border: gray;
+}
+.headerSearch {
+  display: grid;
+  /* justify-content: center; */
+}
+.loginRegister {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.headerBtn {
+  background: transparent;
+  /* border: none; */
+  /* font-weight: 700; */
+  border-radius: 5px;
+  border: none;
+}
+.headerBtn:hover {
+  cursor: pointer;
+}
+.login {
+  padding: 12px 28px;
+  color: #48afff;
+  background-color: white;
+}
+.register {
+  padding: 12px 25px;
+  border: 1px solid white;
+  color: white;
+}
+.productNaviagtion{
+    background-color: #fff;
+}
+.navElements{
+    color: rgb(84, 84, 84);
+    display: grid;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 3px solid #fff;
+    text-align: center;
+    font-size: 10px;
+}
+.productNaviagtionInnerDiv{
+
+    width: 85%;
+    margin: auto;
+    font-size: 13px;
+
+}
+.navElements:hover{
+    background-color: #f1f3f6;
+cursor: pointer;
+border-bottom: 3px solid #1498ff;
+}
+.navImages{
+    display: grid;
+    justify-content: center;
+}
+
+.banner{
+    /* max-height: 200px; */
+    margin-top:15px ;
+}
+.bannerImg{
+    max-width: 100%;
+    max-height: 500px;
+    min-height: 200px;
+}
+
+@media(max-width:770px){
+    .loginRegister{
+        display: none;
+    }
+    .headerNavigation {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    gap: 10px;}
+    .banner{
+        margin-top:2px ;
+    }
+}
