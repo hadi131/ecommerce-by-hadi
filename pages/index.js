@@ -2,6 +2,7 @@ import Header from "../components/header"
 import Products from "../components/products"
 import Bestseller from "../components/bestseller"
 import Banner from "../components/banner"
+import Showbyprice from "../components/showbyprice"
 export default function Home() {
   return (
     <>
@@ -15,6 +16,8 @@ export default function Home() {
     <Banner></Banner>
     {/* latest mobiles */}
     <Products></Products>
+    {/* show by price */}
+    <Showbyprice></Showbyprice>
 
     </>
   )

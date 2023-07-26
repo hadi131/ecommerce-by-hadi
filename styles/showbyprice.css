@@ -1,0 +1,30 @@
+.priceCardGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 10px;
+}
+.priceCards{
+    background-color: #FFF348;
+    display: grid;
+    justify-content: center;
+    padding: 17px 25px;
+    border-radius: 10px;
+}
+.priceCards a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.priceCards:hover{
+    cursor: pointer;
+    background-color: #48afff;
+    transition: all .5s ease-in-out;
+    & a{
+        color: white;
+    transition: all .5s ease-in-out;
+        
+    }
+
+}
