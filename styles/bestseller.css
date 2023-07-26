@@ -1,0 +1,66 @@
+.bestsellerproducts {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  /* padding: 0 20px; */
+  gap: 10px;
+}
+.bestsellerprodDesc {
+  padding: 0 20px 20px 20px;
+  color: rgb(46, 46, 46);
+}
+.bestsellerprice {
+  padding: 0px 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.bestsellerdiscPrice {
+  padding: 5px 20px;
+  color: rgb(88, 88, 88);
+  font-size: 12px;
+}
+.bestsellerorigional {
+  text-decoration: 1.5px line-through red;
+}
+.bestsellerproductImg{
+    max-width: 100%;
+}
+.watchcard{
+  background-color: white;
+  padding: 30px 0;
+  border-radius: 5px;
+  /* margin:8px 5px; */
+  box-shadow: 3px 3px 10px 1px rgba(234, 234, 234, 0.75);
+}
+.bestsellerdiscount {
+  background-color: #e8f4f0;
+  color: #0bb07e;
+  padding: 3px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.ridhtbestseller {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.rightbestsellerproductImg {
+  max-width: 110px;
+}
+.rightbestsellercard {
+  background-color: white;
+  padding: 30px 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 1px rgba(234, 234, 234, 0.75);
+}
+
+@media (max-width: 770px) {
+  .bestsellerproducts {
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width:420px){
+    .ridhtbestseller {
+        grid-template-columns: 1fr;
+      }
+}

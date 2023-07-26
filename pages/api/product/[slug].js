@@ -13,10 +13,7 @@ export default async function handler(req, res) {
           success: true,
           message: singleProduct
         });
-        res.status(200).json({
-          success: true,
-          singleProduct
-        });
+       
       }         catch (error) {res.status(error)}
 
     case "PUT":
