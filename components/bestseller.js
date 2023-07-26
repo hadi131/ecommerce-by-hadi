@@ -5,7 +5,7 @@ const bestseller = () => {
         <h1>Best Seller</h1>
         <p>Get the best prices in town</p>
       </div>
-      <div className="maxWidthBody" style={{ paddingBottom: "20px" }}>
+      <div className="maxWidthBody" style={{ paddingBottom: "20px",paddingLeft:"13px",paddingRight:"13px" }}>
 
       <div className="bestsellerproducts">
 
