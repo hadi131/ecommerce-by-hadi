@@ -6,11 +6,11 @@
 .maxWidthBody{
 max-width: 1200px;
 margin: auto;
-padding:0 8px;
+padding:0 10px;
 
 }
 .latest{
-    padding: 30px 9px 15px 9px;
+    padding: 30px 10px 15px 10px;
     font-size: 20px;
 }
 .centerHeading{
