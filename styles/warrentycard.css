@@ -1,0 +1,28 @@
+.warrentyBar{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+
+    & div{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        & div{
+            padding: 10px 0;
+            text-align: center;
+        }
+        & img{
+            width: 80px;
+        }
+    }
+}
+@media(max-width:770px){
+    .warrentyBar{
+        grid-template-columns: 1fr 1fr;
+    }
+}

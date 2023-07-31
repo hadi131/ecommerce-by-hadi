@@ -1,0 +1,60 @@
+.footerMain {
+  background-color: #48afff;
+  /* height: 45vh; */
+}
+.footerBar {
+  background-color: #46aaf6;
+  padding: 20px 0;
+}
+.barGrid{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.barLogo {
+  display: grid;
+  align-items: center;
+  color: white;
+}
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footerNav {
+  display: grid;
+  padding: 30px 0;
+  gap: 12px;
+  & a {
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    font-size: 12px;
+  }
+}
+.firstLink {
+  font-size: 20px !important;
+  padding: 0 0 30px 0;
+}
+.googlePlay {
+  width: 190px;
+}
+.fa-brands {
+  color: white;
+font-size: 22px;
+}
+.barIcons{
+    display: flex;
+    gap: 15px;
+
+}
+@media(max-width:770px){
+    .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+}
+@media(max-width:440px){
+    .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+} 

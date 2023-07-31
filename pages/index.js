@@ -3,6 +3,8 @@ import Products from "../components/products"
 import Bestseller from "../components/bestseller"
 import Banner from "../components/banner"
 import Showbyprice from "../components/showbyprice"
+import Warrentycard from "../components/warrentycard"
+import Footer from "../components/footer"
 export default function Home() {
   return (
     <>
@@ -18,6 +20,11 @@ export default function Home() {
     <Products></Products>
     {/* show by price */}
     <Showbyprice></Showbyprice>
+      {/* latest tablet */}
+      <Products></Products>
+      <Warrentycard></Warrentycard>
+      <Footer></Footer>
+      
 
     </>
   )

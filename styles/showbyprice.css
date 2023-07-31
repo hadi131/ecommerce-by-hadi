@@ -5,7 +5,7 @@
     padding-left: 10px;
 }
 .priceCards{
-    background-color: #FFF348;
+    background-color: #FFF348; 
     display: grid;
     justify-content: center;
     padding: 17px 25px;
@@ -28,3 +28,14 @@
     }
 
 }
+
+@media(max-width:770px){
+    .priceCardGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:440px){
+    .priceCardGrid{
+        grid-template-columns: 1fr;
+    }
+} 
